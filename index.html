@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image.png" href="img/touch.png" style="width: 14px; height: 14px;">
+
+
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <a href="#inicio" class="logo">Meu Portfólio</a>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#education">Formação</a></li>
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <h1>Olá, eu sou Fábio Abreu</h1>
+        <p>Estudante de Análise e Desenvolvimento de Sistemas que está aos poucos realizando suas aspirações.</p>   
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>Sobre Mim</h2> 
+            <p>Sou um aspirante a analista de dados. Atualmente, não estou atuando na minha área, mas tenho esse pequeno sonho. 
+                Sou um rapaz simples, com gostos simples – em resumo, um nerd que tenta fazer o melhor.</p> 
+                <p>Meus gostos são comuns. Estilo musical? Gosto de rock. Minha série favorita? <em>Friends</em>. 
+                Em relação a rolês, não curto balada: não tenho paciência. Prefiro passear no shopping, ir a parques, etc.</p>
+            
+            <h3 style="margin-top: 2rem;">Hobbies</h3>
+            <ul style="margin-left: 1.5rem;">
+                <li>Asistir animes</li>
+                <li>Gosto de jogar também</li>
+                <li>Passeios aleatórios</li>
+                <li>Dormir, não esquecemos o melhor de todos</li>
+            </ul>
+        </div>
+        <div class="about-img">
+            <img src="img/foto-inicio.png" alt="Foto de Fábio sorrindo na paisagem">
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <h2>Formação Acadêmica</h2>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Graduacão - tecnólogo em Gestão Pública</h3>
+                    <p>Universidade Cruzeiro do sul</p>
+                    <p>2018 - 2020</p>
+                    <p>Curso voltado para a admnistração pública.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Graduacão - Análise e desenvolvimento de sistemas</h3>
+                    <p>Universidade PRojeção</p>
+                    <p>2025 - Em andamento</p>
+                    <p>Cursos voltado para desenvolvimento de software.</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Admnistrador de Banco de dados</h3>
+                    <p>SENAC Jessé Freire</p>
+                    <p>2021-2021</p>
+                    <p>Curso complementar voltado para contrução e modelagem de banco dados.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Tecnico em Informatica</h3>
+                    <p>SENAC Jessé Freire</p>
+                    <p>2019-2020</p>
+                    <p>Cursos voltado para atuação em T.I.</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Assistente de Logistica</h3>
+                    <p>USENAC Sobradinho</p>
+                    <p>2017</p>
+                    <p>Cursco complementar voltado para gerenciamento de Logistica.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Idomas</h3>
+                    <p>Espanhol - Centro interescolar de Linguas</p>
+                    <p>Francês - UnB Idiomas</p>
+                    <p>Japonês - Centro interescolar de Linguas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2>Atuação Profissional</h2>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Atendente ao público</h3>
+                    <p>Audax moto peças</p>
+                    <p>Atual emprego</p>
+                    <p>Atuando na venda de peças de motos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Entre em Contato</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Assunto</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+        
+        <div class="social-links">
+            <a href="https://www.instagram.com/fabinho_abreu?utm_source=qr&igsh=MXZsMnhlM3poZ3JqNg==" target="_blank">
+                <img src="img/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/f%C3%A1bio-abreu-477935164?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                <img src="img/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="mailto:fabioabreu71@gmail.com">
+                <img src="img/gmail.png" alt="Email">
+            </a>
+        </div>
+    </section>
+
+    <script src="js/functions.js"></script>
+
+
+    <footer>
+        <p>&copy; 2025 Meu Portfólio. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
